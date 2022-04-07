@@ -12,18 +12,16 @@
 
 This repo contains a requirements.txt file with a list of all the packages and dependencies you will need.
 
-* pyenv local 3.9.8
-* python -m venv .venv
-* source .venv/bin/activate
-* pip install --upgrade pip
-* pip install -r requirements.txt
+```Bash
+pyenv local 3.9.8
+python -m venv .venv
+source .venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
+````
+### Deliverables
 
-### Unit testing (Optional)
-
-If you write python scripts for your data processing methods, you can also write unit tests. In order to run the tests execute in terminal:
-
-```bash
-pytest
-```
-
-This command will execute all the functions in your project that start with the word **test**.
+- [King count data wrangling notebook](EDA_housing.ipynb)
+- [Centrally located houses](city_map.html)
+- [Suburban houses](urban_map.html)
+- [Stakeholder presentation](House_Buying_Proposal.pdf)
